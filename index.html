@@ -1,0 +1,979 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i" rel="stylesheet">
+
+	<title>Sebastián Veggiani</title>
+
+	<style>
+	body {
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+  color: #000;
+  line-height: 1.4;
+  margin: 50px 0 60px;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: 1em;
+  margin: 0;
+}
+h1 {
+  color: #FF1717;
+  font-size: 2.4em;
+  font-weight: 900;
+}
+h2 {
+  margin-top: 10px;
+  font-weight: 900;
+}
+h3 {
+  font-size: 1.2em;
+  font-weight: 900;
+}
+h4 {
+  font-size: 1.1em;
+  margin-bottom: 0.3em;
+}
+p {
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0;
+  line-height: 1.8em;
+  opacity: 0.8;
+}
+em {
+  opacity: 0.5;
+}
+p {
+  line-height: 1.4;
+}
+ul {
+  margin-bottom: 0;
+}
+section, #skills .item {
+  margin-bottom: 2em;
+}
+section > h3 {
+  width: 25%;
+  float: left;
+  color: #FF1717;
+}
+section > section {
+  width: 75%;
+  float: left;
+}
+blockquote {
+  margin: 0;
+  margin-bottom: 1em;
+}
+a {
+  font-size: 0.9em;
+  font-weight: 700;
+  opacity: 0.5;
+  color: #000;
+}
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;
+}
+.item {
+  margin-bottom: 3em;
+}
+.row:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#resume {
+  margin: 0 auto;
+  /*max-width: 595px;*/
+  max-width: 690px;
+  padding: 0 50px;
+}
+#resume > section {
+  margin-bottom: -10px;
+  margin-top: 10px;
+}
+#resume > section:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.summary {
+  margin: 10px 0 50px;
+  font-style: italic;
+}
+#skills .keywords,
+#languages > section,
+#interests > section,
+#profiles > section,
+#contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+#education .institution,
+#work .name,
+#volunteer .name,
+#awards .title,
+#publications .name {
+  font-size: 1em;
+  font-weight: 900;
+  width: 65%;
+  float: left;
+}
+#education .area,
+#education .studyType {
+  font-size: 0.9em;
+  font-weight: 400;
+  font-style: italic
+}
+#education .date,
+#work .date,
+#volunteer .date,
+#awards .date,
+#publications .date {
+  font-size: 0.7em;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  width: 35%;
+  float: right;
+  text-align: right;
+}
+#education .education-sub-info {
+  margin-top: 10px;
+}
+#education .education-sub-info span:not(:last-child):after {
+  margin: 0 5px;
+  content: "/";
+}
+#work .website,
+#work .position,
+#work .highlights,
+#work .item > h5,
+#volunteer .website,
+#volunteer .position,
+#volunteer .highlights,
+#volunteer .item > h5,
+#awards .awarder,
+#publications .website,
+#publications .publisher,
+#skills .item .level,
+#languages .item .fluency {
+  font-size: 0.9em;
+}
+#work .summary,
+#awards .summary,
+#volunteer .summary,
+#publications .summary {
+  font-style: normal;
+  font-size: 0.8em;
+  margin: 10px 0;
+}
+#work .position,
+#volunteer .position,
+#awards .awarder,
+#publications .publisher {
+  margin-top: 10px;
+  font-style: italic;
+}
+#work .highlights,
+#volunteer .highlights {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#work .highlights li,
+#volunteer .highlights li {
+  font-size: 0.9em;
+  width: 45%;
+  margin-right: 5%;
+}
+#skills .keywords {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+#skills .keywords li {
+  margin-right: 20px;
+}
+#skills .item .name,
+#languages .item .language,
+#profiles .item .network {
+  font-weight: 900;
+}
+#languages .item,
+#profiles .item {
+  width: 33.3%;
+  margin-bottom: 10px;
+}
+#profiles .item .network {
+  font-size: 0.9em;
+}
+#profiles .item .url {
+  font-size: 0.8em;
+}
+#interests .name {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-right: 7px;
+}
+#interests .name:not(:last-child):after {
+  content: ',';
+  margin-left: -3px;
+}
+#contacts .item {
+  flex: 1;
+  margin-bottom: 0;
+}
+#profiles, #skills {
+  overflow: hidden;
+}
+#contacts {
+  margin-left: 25%;
+  font-size: 0.8em;
+}
+#contacts .site {
+  align-self: flex-end;
+  text-align: right;
+}
+#contacts .site a {
+  color: #FF1717;
+  opacity: 1;
+  font-size: 1em;
+  font-weight: 900;
+}
+#contacts .location .block span:not(:last-child):after {
+  content: ', ';
+}
+#contacts .block {
+  display: block;
+}
+#references .item {
+  width: 45%;
+  float: left;
+  padding-right: 10%;
+}
+#references .item:nth-child(2n) {
+  padding: 0;
+}
+#references .reference {
+  font-style: normal;
+  font-size: 0.7em;
+  margin: 10px 0;
+  font-style: italic;
+}
+#references .name {
+  font-weight: 900;
+  font-size: 0.8em;
+}
+/* Smartphones (portrait) ----------- */
+@media (max-width: 599px) and (not print) {
+  body {
+    margin: 30px 0 40px;
+  }
+  #resume {
+    padding: 0 35px;
+  }
+  #resume > section {
+    margin-top: 50px;
+  }
+  .summary {
+    margin-bottom: 40px;
+  }
+  section {
+    margin-bottom: 0;
+  }
+  section > h3 {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  section > section, #references .item {
+    width: 100%;
+    flex: none;
+    padding: 0;
+  }
+  section > .item:last-child, section.item:last-child {
+    margin-bottom: 0;
+  }
+  #contacts {
+    margin-left: 0;
+  }
+  #languages .item, #profiles .item {
+    width: 50%;
+  }
+}
+
+
+
+@media print {
+  body {
+    font-size: 0.9em;
+    margin: 0;
+  }
+  #resume {
+      width: 85%;
+      margin: 1cm auto;
+      padding: 0;
+      -ms-word-wrap: break-word;
+      word-wrap: break-word;
+      line-height: 1.3;
+      font-family: Arial, Georgia, "Lucida Grande", sans-serif;
+  }
+  .summary {
+    margin: 0.2cm 0 0.9cm 0;
+  }
+  #profiles {
+    display: none;
+  }
+  #resume > section {
+    margin: 0;
+  }
+  section > section {
+    margin: 0;
+  }
+  #skills .level {
+    line-height: 1.5em;
+  }
+  #skills .name {
+    float: left;
+    margin-right: 0.5cm;
+  }
+  #skills .keywords {
+    margin-top: 0.1cm;
+  }
+  section#interests {
+    margin-top: 1cm;
+    margin-bottom: 1.2cm;
+  }
+  #contacts {
+    width: 75%;
+    float: right;
+  }
+  p {
+    opacity: 1;
+  }
+}
+
+@page {
+  margin: 1cm 1.4cm;
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<div id="resume">
+			<h1>Sebastián Veggiani</h1>
+			<h2>Software Developer</h2>
+		  <div class="summary">
+		    <p>I&#x27;m software developer with solid knowledge and experience in Web Design and User Interfaces Design. Besides, I am a User Experience (UX) enthusiastic and curious too.  At present, I&#x27;m located at Mendoza, Argentina.</p>
+		  </div>
+    <section id="education">
+    	<h3>Education</h3>
+    	<section class="item">
+        <div class="row">
+          <div class="institution">
+            Universidad Tecnológica Nacional, Facultad Regional Mendoza
+          </div>
+          <div class="date">
+            <span class="startDate">
+              January 2001
+            </span>
+            <span class="endDate">
+              - December 2002
+            </span>
+          </div>
+        </div>
+        <div class="row education-sub-info">
+          <span class="area">
+            Information Systems Engineering  (uncomplete)
+          </span>
+          <span class="studyType">
+            Undergraduate degree
+          </span>
+        </div>
+    	</section>
+    	<section class="item">
+        <div class="row">
+          <div class="institution">
+            Universidad Nacional de Cuyo, Facultad de Artes y Diseño.
+          </div>
+          <div class="date">
+            <span class="startDate">
+              January 2002
+            </span>
+            <span class="endDate">
+              - December 2006
+            </span>
+          </div>
+        </div>
+        <div class="row education-sub-info">
+          <span class="area">
+            Industrial Design, Graphic Design orientation (uncomplete)
+          </span>
+          <span class="studyType">
+            Undergraduate degree
+          </span>
+        </div>
+    	</section>
+    	<section class="item">
+        <div class="row">
+          <div class="institution">
+            Colegio Abelardo Vázquez. San José, Guaymallén, Mendoza.
+          </div>
+          <div class="date">
+            <span class="startDate">
+              January 1991
+            </span>
+            <span class="endDate">
+              - December 1996
+            </span>
+          </div>
+        </div>
+        <div class="row education-sub-info">
+          <span class="area">
+            Qualified Accountant
+          </span>
+          <span class="studyType">
+            High School
+          </span>
+        </div>
+    	</section>
+    </section>
+		<section id="work">
+			<h3>Work</h3>
+		  <section>
+		    <div class="item">
+		      <div class="row">
+		        <div class="name">
+		          Globant
+		        </div>
+		        <div class="date">
+		          <span class="startDate">
+		            November 2016
+		          </span>
+		          <span class="endDate">
+		            - Present
+		          </span>
+		        </div>
+		      </div>
+		      <div class="website">
+		        <a href="https://www.globant.com">https://www.globant.com</a>
+		      </div>
+		      <div class="position">
+		        Technical Leader
+		      </div>
+		      <h5>Responsibilities:</h5>
+		      <ul class="highlights">
+		        <li>Young Olympic Games, Buenos Aires 2018, Technical Leader</li>
+		        <li>OpenBank, Technical Leader</li>
+		      </ul>
+		    </div>
+		    <div class="item">
+		      <div class="row">
+		        <div class="name">
+		          Globant
+		        </div>
+		        <div class="date">
+		          <span class="startDate">
+		            December 2014
+		          </span>
+		          <span class="endDate">
+		            - October 2016
+		          </span>
+		        </div>
+		      </div>
+		      <div class="website">
+		        <a href="https://www.globant.com">https://www.globant.com</a>
+		      </div>
+		      <div class="position">
+		        Front-end Developer
+		      </div>
+		      <h5>Responsibilities:</h5>
+		      <ul class="highlights">
+		        <li>Johnson&#x27;s Baby - AR, CO, MX, Central America, Developer</li>
+		        <li>Via Varejo &quot;Conecta&quot; Intranet</li>
+		        <li>Anheuser-Busch InBev, several brand websites (Stella Artois, Corona, Rolling Rock, Bud Light)</li>
+		      </ul>
+		    </div>
+		    <div class="item">
+		      <div class="row">
+		        <div class="name">
+		          Actionauta
+		        </div>
+		        <div class="date">
+		          <span class="startDate">
+		            October 2011
+		          </span>
+		          <span class="endDate">
+		            - March 2015
+		          </span>
+		        </div>
+		      </div>
+		      <div class="position">
+		        Project Manager, back-end and front-end developer
+		      </div>
+		    </div>
+		    <div class="item">
+		      <div class="row">
+		        <div class="name">
+		          Consejo Federal de Inversiones
+		        </div>
+		        <div class="date">
+		          <span class="startDate">
+		            July 2011
+		          </span>
+		          <span class="endDate">
+		            - November 2014
+		          </span>
+		        </div>
+		      </div>
+		      <div class="position">
+		        Consulting on application development and GIS integration
+		      </div>
+		      <h5>Responsibilities:</h5>
+		      <ul class="highlights">
+		        <li>Technological Innovation Project for Catastro Provincial de Tierra del Fuego</li>
+		      </ul>
+		    </div>
+		    <div class="item">
+		      <div class="row">
+		        <div class="name">
+		          Envero
+		        </div>
+		        <div class="date">
+		          <span class="startDate">
+		            December 2007
+		          </span>
+		          <span class="endDate">
+		            - October 2011
+		          </span>
+		        </div>
+		      </div>
+		      <div class="website">
+		        <a href="http://envero.org">http://envero.org</a>
+		      </div>
+		      <div class="position">
+		        Founder. Project Manager, designer, back-end and front-end development
+		      </div>
+		      <div class="summary">
+		        <p>Mendoza, Argentina</p>
+		      </div>
+		    </div>
+		    <div class="item">
+		      <div class="row">
+		        <div class="name">
+		          Ilimit Comunicacions
+		        </div>
+		        <div class="date">
+		          <span class="startDate">
+		            December 2006
+		          </span>
+		          <span class="endDate">
+		            - December 2007
+		          </span>
+		        </div>
+		      </div>
+		      <div class="website">
+		        <a href="https://www.ilimit.com/es">https://www.ilimit.com/es</a>
+		      </div>
+		      <div class="position">
+		        Front-end and back-end developer for websites and applications
+		      </div>
+		      <div class="summary">
+		        <p>Terrassa, Spain</p>
+		      </div>
+		    </div>
+		    <div class="item">
+		      <div class="row">
+		        <div class="name">
+		          Fulano &amp; Mengano
+		        </div>
+		        <div class="date">
+		          <span class="startDate">
+		            December 2005
+		          </span>
+		          <span class="endDate">
+		            - December 2006
+		          </span>
+		        </div>
+		      </div>
+		      <div class="position">
+		        Front-end and back-end developer for websites and applications
+		      </div>
+		      <div class="summary">
+		        <p>Mendoza, Argentina</p>
+		      </div>
+		    </div>
+		    <div class="item">
+		      <div class="row">
+		        <div class="name">
+		          División GIS
+		        </div>
+		        <div class="date">
+		          <span class="startDate">
+		            February 2001
+		          </span>
+		          <span class="endDate">
+		            - October 2005
+		          </span>
+		        </div>
+		      </div>
+		      <div class="website">
+		        <a href="http://www.divisiongis.com">http://www.divisiongis.com</a>
+		      </div>
+		      <div class="position">
+		        Web developer
+		      </div>
+		      <div class="summary">
+		        <p>Web application developer for Internet and intranet. Relational databases implementations (MySQL, SQL Server). Mendoza, Argentina</p>
+		      </div>
+		    </div>
+		    <div class="item">
+		      <div class="row">
+		        <div class="name">
+		          Compañía Cuyana de Cómputos
+		        </div>
+		        <div class="date">
+		          <span class="startDate">
+		            January 1998
+		          </span>
+		          <span class="endDate">
+		            - January 2001
+		          </span>
+		        </div>
+		      </div>
+		      <div class="position">
+		        Geographical Information Systems operator
+		      </div>
+		      <div class="summary">
+		        <p>Mendoza, Argentina</p>
+		      </div>
+		    </div>
+		    <div class="item">
+		      <div class="row">
+		        <div class="name">
+		          Master Computación
+		        </div>
+		        <div class="date">
+		          <span class="startDate">
+		            February 1995
+		          </span>
+		          <span class="endDate">
+		            - November 1997
+		          </span>
+		        </div>
+		      </div>
+		      <div class="position">
+		        Technical service and Sales.
+		      </div>
+		      <div class="summary">
+		        <p>Mendoza, Argentina</p>
+		      </div>
+		    </div>
+		  </section>
+		</section>
+		<section id="volunteer">
+			<h3>Volunteer</h3>
+		  <section>
+		    <div class="item">
+		      <div class="row">
+		        <div class="name">
+		          IXDA Mendoza
+		        </div>
+		        <div class="date">
+		          <span class="startDate">
+		            December 2013
+		          </span>
+		          <span class="endDate">
+		            - December 2015
+		          </span>
+		        </div>
+		      </div>
+		      <div class="website">
+		        <a href="https://es-la.facebook.com/ixdamza/">https://es-la.facebook.com/ixdamza/</a>
+		      </div>
+		      <div class="position">
+		        Contributor, technical support
+		      </div>
+		    </div>
+		  </section>
+		</section>
+		<section id="awards">
+			<h3>Awards</h3>
+		  <section>
+		    <div class="item">
+		      <div class="row">
+		        <div class="title">
+		          Team Player
+		        </div>
+		        <div class="date">
+		          <span>
+		            December 2016
+		          </span>
+		        </div>
+		      </div>
+		      <div class="awarder">
+		        Globant
+		      </div>
+		    </div>
+		    <div class="item">
+		      <div class="row">
+		        <div class="title">
+		          Most Starred Production
+		        </div>
+		        <div class="date">
+		          <span>
+		            December 2017
+		          </span>
+		        </div>
+		      </div>
+		      <div class="awarder">
+		        Globant
+		      </div>
+		    </div>
+		  </section>
+		</section>
+		<section id="skills">
+			<h3>Skills</h3>
+		  <section>
+		    <div class="item">
+		      <div class="name">
+		        Development languages
+		      </div>
+		      <ul class="keywords">
+		        <li>Javascipt</li>
+		        <li>PHP</li>
+		        <li>Python (junior)</li>
+		        <li>SQL (intermediate)</li>
+		        <li>Visual Basic</li>
+		        <li>Acionscript</li>
+		      </ul>
+		    </div>
+		    <div class="item">
+		      <div class="name">
+		        Markup &amp; Web Standards
+		      </div>
+		      <ul class="keywords">
+		        <li>XHTML, HTML, HTML 5</li>
+		        <li>ES6</li>
+		        <li>JSX</li>
+		        <li>CSS 3</li>
+		        <li>JSON, JSONP</li>
+		        <li>XML</li>
+		        <li>RESTful interfaces</li>
+		        <li>W3C Standards</li>
+		        <li>WMS &amp; WFS, OGC</li>
+		      </ul>
+		    </div>
+		    <div class="item">
+		      <div class="name">
+		        Tools, Libraries and Frameworks
+		      </div>
+		      <ul class="keywords">
+		        <li>React.js</li>
+		        <li>jQuery</li>
+		        <li>Backbone.js</li>
+		        <li>Underscore / lodash</li>
+		        <li>Redux (basics)</li>
+		        <li>React Native (basics)</li>
+		        <li>CakePHP</li>
+		        <li>Laravel (basics)</li>
+		        <li>Symfony (basics)</li>
+		        <li>Express (basics)</li>
+		        <li>Drupal</li>
+		        <li>Headless Drupal</li>
+		        <li>Adobe Experience Manager (basics)</li>
+		        <li>Docker, Docker compose</li>
+		        <li>Vagrant</li>
+		        <li>git</li>
+		        <li>SVN</li>
+		        <li>BEM</li>
+		        <li>OOCSS</li>
+		        <li>SASS</li>
+		        <li>SCSS</li>
+		        <li>LESS</li>
+		        <li>PostCSS</li>
+		        <li>Autoprefixer</li>
+		        <li>Foundation 5/6</li>
+		        <li>Bootstrap 3</li>
+		        <li>Webpack</li>
+		        <li>Gulp</li>
+		        <li>Grunt</li>
+		        <li>Yeoman</li>
+		        <li>Box Model</li>
+		        <li>Flexbox</li>
+		        <li>CSS Grids (basics)</li>
+		        <li>NPM</li>
+		        <li>Yarn</li>
+		        <li>Composer</li>
+		        <li>Bower</li>
+		        <li>Jasmine</li>
+		        <li>Mocha</li>
+		        <li>Behat</li>
+		        <li>Node.js</li>
+		        <li>Electron (basics)</li>
+		        <li>Django (basics)</li>
+		      </ul>
+		    </div>
+		    <div class="item">
+		      <div class="name">
+		        Platforms and technologies
+		      </div>
+		      <ul class="keywords">
+		        <li>Apache Web Server</li>
+		        <li>LAMP</li>
+		        <li>Nginx (basis)</li>
+		        <li>Amazon Web Services</li>
+		        <li>Gitlab, Github</li>
+		        <li>IIS</li>
+		      </ul>
+		    </div>
+		    <div class="item">
+		      <div class="name">
+		        Databases
+		      </div>
+		      <ul class="keywords">
+		        <li>MySQL</li>
+		        <li>PostgreSQL</li>
+		        <li>MongoDB (basics)</li>
+		        <li>Microsoft SQL Server</li>
+		        <li>SQLite</li>
+		        <li>dBASE</li>
+		      </ul>
+		    </div>
+		    <div class="item">
+		      <div class="name">
+		        Operating Systems
+		      </div>
+		      <ul class="keywords">
+		        <li>macOS / OS X</li>
+		        <li>Windows</li>
+		        <li>Linux</li>
+		        <li>Android</li>
+		        <li>iOS</li>
+		      </ul>
+		    </div>
+		    <div class="item">
+		      <div class="name">
+		        Other skills and disciplines
+		      </div>
+		      <ul class="keywords">
+		        <li>User Experience (UX)</li>
+		        <li>User Interfaces Design (UI)</li>
+		        <li>Interaction Design (IxD)</li>
+		        <li>Graphic Design</li>
+		        <li>Accessibility, WCAG</li>
+		      </ul>
+		    </div>
+		    <div class="item">
+		      <div class="name">
+		        Geographical Information Systems
+		      </div>
+		      <ul class="keywords">
+		        <li>ESRI ArcGIS Server</li>
+		        <li>ArcGIS Javascript API</li>
+		        <li>ESRI ArcGIS Desktop</li>
+		        <li>OpenGEO</li>
+		        <li>GeoServer</li>
+		        <li>PostGIS</li>
+		        <li>OpenLayers API</li>
+		      </ul>
+		    </div>
+		  </section>
+		</section>
+		<section id="languages">
+			<h3>Languages</h3>
+		  <section>
+		    <div class="item">
+		      <div class="language">
+		        Spanish
+		      </div>
+		      <div class="fluency">
+		        <em>Native speaker</em>
+		      </div>
+		    </div>
+		    <div class="item">
+		      <div class="language">
+		        English
+		      </div>
+		      <div class="fluency">
+		        <em>Advanced reading and writing, Upper intermediate speaker</em>
+		      </div>
+		    </div>
+		  </section>
+		</section>
+    <section id="profiles">
+    	<h3>Profiles</h3>
+      <section>
+        <div class="item">
+          <div class="network">
+            Github
+          </div>
+          <div class="url">
+            <a href="https://github.com/sveggiani">sveggiani</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="network">
+            Linkedin
+          </div>
+          <div class="url">
+            <a href="http://ar.linkedin.com/in/sebastianveggiani/">sebastianveggiani</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="network">
+            Twitter
+          </div>
+          <div class="url">
+            <a href="https://twitter.com/wiredse">@wiredse</a>
+          </div>
+        </div>
+      </section>
+    </section>
+		<section id="contacts">
+		  <div class="location item">
+		    <div class="block">
+		      <span class="countryCode">AR</span>
+		      <span class="city">Mendoza, Argentina</span>
+		      
+		    </div>
+		    <div class="block">
+		      <span class="address">Rufino Ortega 173, Piso 1, Depto. 3</span>
+		    </div>
+		  </div>
+		
+		  <div class="contacts item">
+		    <div class="block">
+		      <span class="email">sveggiani@gmail.com</span>
+		    </div>
+		    <div class="block">
+		      <span class="phone">(+54) 9 261 5 698812</span>
+		    </div>
+		  </div>
+		
+		  <div class="site item">
+		    <div class="block">
+		      <a href="http://actionauta.com" class="website">actionauta.com</a>
+		    </div>
+		  </div>
+		</section>
+	</body>
+</html>
