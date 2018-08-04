@@ -1,340 +1,341 @@
 {
-    "basics": {
-      "name": "Sebastián Veggiani",
-      "label": "Software Developer",
-      "picture": "http://sveggiani.github.io/curriculum/img/sveggiani_picture.jpg",
-      "email": "sveggiani@gmail.com",
-      "phone": "(+54) 9 261 5 698812",
-      "website": "http://actionauta.com",
-      "summary": "I'm software developer with solid knowledge and experience in Web Design and User Interfaces Design. Besides, I am a User Experience (UX) enthusiastic and curious too.  At present, I'm located at Mendoza, Argentina.",
-      "location": {
-        "address": "Rufino Ortega 173, Piso 1, Depto. 3",
-        "postalCode": "5500",
-        "city": "Mendoza, Argentina",
-        "countryCode": "AR",
-        "region": ""
+  "basics": {
+    "name": "Sebastián Veggiani",
+    "label": "Software Developer",
+    "picture": "http://sveggiani.github.io/curriculum/img/sveggiani_picture.jpg",
+    "email": "sveggiani@gmail.com",
+    "phone": "(+54) 9 261 5 698812",
+    "website": "http://actionauta.com",
+    "summary": "I'm software developer with solid knowledge and experience in Web Design and User Interfaces Design. Besides, I am a User Experience (UX) enthusiastic and curious too.  At present, I'm located at Mendoza, Argentina.",
+    "location": {
+      "address": "Coronel P. Plaza 431, Depto. 6",
+      "postalCode": "5500",
+      "city": "Mendoza, Argentina",
+      "countryCode": "AR",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "sveggiani",
+        "url": "https://github.com/sveggiani"
       },
-      "profiles": [
-        {
-          "network": "Github",
-          "username": "sveggiani",
-          "url": "https://github.com/sveggiani"
-        },
-        {
-          "network": "Linkedin",
-          "username": "sebastianveggiani",
-          "url": "http://ar.linkedin.com/in/sebastianveggiani/"
-        },
-        {
-          "network": "Twitter",
-          "username": "@wiredse",
-          "url": "https://twitter.com/wiredse"
-        }
+      {
+        "network": "Linkedin",
+        "username": "sebastianveggiani",
+        "url": "http://ar.linkedin.com/in/sebastianveggiani/"
+      },
+      {
+        "network": "Twitter",
+        "username": "@wiredse",
+        "url": "https://twitter.com/wiredse"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Globant",
+      "position": "Technical Leader",
+      "website": "https://www.globant.com",
+      "startDate": "2016-11-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Young Olympic Games, Buenos Aires 2018, Technical Leader",
+        "OpenBank, Technical Leader"
       ]
     },
-    "work": [
-      {
-        "company": "Globant",
-        "position": "Technical Leader",
-        "website": "https://www.globant.com",
-        "startDate": "2016-11-01",
-        "endDate": "",
-        "summary": "",
-        "highlights": [
-          "Young Olympic Games, Buenos Aires 2018, Technical Leader",
-          "OpenBank, Technical Leader"
-        ]
-      },
-      {
-        "company": "Globant",
-        "position": "Front-end Developer",
-        "website": "https://www.globant.com",
-        "startDate": "2014-12-22",
-        "endDate": "2016-10-31",
-        "summary": "",
-        "highlights": [
-          "Johnson's Baby - AR, CO, MX, Central America, Developer",
-          "Via Varejo \"Conecta\" Intranet",
-          "Anheuser-Busch InBev, several brand websites (Stella Artois, Corona, Rolling Rock, Bud Light)"
-        ]
-      },
-      {
-        "company": "Actionauta",
-        "position": "Project Manager, back-end and front-end developer",
-        "website": "",
-        "startDate": "2011-10-01",
-        "endDate": "2015-03-01",
-        "summary": "",
-        "highlights": []
-      },
-      {
-        "company": "Consejo Federal de Inversiones",
-        "position": "Consulting on application development and GIS integration",
-        "website": "",
-        "startDate": "2011-07-01",
-        "endDate": "2014-11-30",
-        "summary": "",
-        "highlights": [
-          "Technological Innovation Project for Catastro Provincial de Tierra del Fuego"
-        ]
-      },
-      {
-        "company": "Envero",
-        "position": "Founder. Project Manager, designer, back-end and front-end development",
-        "website": "http://envero.org",
-        "startDate": "2007-12-01",
-        "endDate": "2011-10-31",
-        "summary": "Mendoza, Argentina",
-        "highlights": []
-      },
-      {
-        "company": "Ilimit Comunicacions",
-        "position": "Front-end and back-end developer for websites and applications",
-        "website": "https://www.ilimit.com/es",
-        "startDate": "2006-12-01",
-        "endDate": "2007-12-31",
-        "summary": "Terrassa, Spain",
-        "highlights": []
-      },
-      {
-        "company": "Fulano & Mengano",
-        "position": "Front-end and back-end developer for websites and applications",
-        "website": "",
-        "startDate": "2005-12-01",
-        "endDate": "2006-12-31",
-        "summary": "Mendoza, Argentina",
-        "highlights": []
-      },
-      {
-        "company": "División GIS",
-        "position": "Web developer",
-        "website": "http://www.divisiongis.com",
-        "startDate": "2001-02-01",
-        "endDate": "2005-10-31",
-        "summary": "Web application developer for Internet and intranet. Relational databases implementations (MySQL, SQL Server). Mendoza, Argentina",
-        "highlights": []
-      },
-      {
-        "company": "Compañía Cuyana de Cómputos",
-        "position": "Geographical Information Systems operator",
-        "website": "",
-        "startDate": "1998-01-01",
-        "endDate": "2001-01-31",
-        "summary": "Mendoza, Argentina",
-        "highlights": []
-      },
-      {
-        "company": "Master Computación",
-        "position": "Technical service and Sales.",
-        "website": "",
-        "startDate": "1995-02-01",
-        "endDate": "1997-11-01",
-        "summary": "Mendoza, Argentina",
-        "highlights": []
-      }
-    ],
-    "volunteer": [
-      {
-        "organization": "IXDA Mendoza",
-        "position": "Contributor, technical support",
-        "website": "https://es-la.facebook.com/ixdamza/",
-        "startDate": "2014",
-        "endDate": "2016",
-        "summary": "",
-        "highlights": []
-      }
-    ],
-    "education": [
-      {
-        "institution": "Universidad Tecnológica Nacional, Facultad Regional Mendoza",
-        "area": "Information Systems Engineering  (uncomplete)",
-        "studyType": "Undergraduate degree",
-        "startDate": "2001-01-01",
-        "endDate": "2002-12-31",
-        "gpa": "",
-        "courses": []
-      },
-      {
-        "institution": "Universidad Nacional de Cuyo, Facultad de Artes y Diseño.",
-        "area": "Industrial Design, Graphic Design orientation (uncomplete)",
-        "studyType": "Undergraduate degree",
-        "startDate": "2002-01-01",
-        "endDate": "2006-12-01",
-        "gpa": "",
-        "courses": []
-      },
-      {
-        "institution": "Colegio Abelardo Vázquez. San José, Guaymallén, Mendoza.",
-        "area": "Qualified Accountant",
-        "studyType": "High School",
-        "startDate": "1991-01-01",
-        "endDate": "1996-12-01",
-        "gpa": "",
-        "courses": []
-      }
-    ],
-    "awards": [
-      {
-        "title": "Team Player",
-        "date": "2016-12-01",
-        "awarder": "Globant",
-        "summary": ""
-      },
-      {
-        "title": "Most Starred Production",
-        "date": "2017-12-01",
-        "awarder": "Globant",
-        "summary": ""
-      }
-    ],
-    "publications": [],
-    "skills": [
-      {
-        "name": "Development languages",
-        "level": "",
-        "keywords": [
-          "Javascipt",
-          "PHP",
-          "Python (junior)",
-          "SQL (intermediate)",
-          "Visual Basic",
-          "Acionscript"
-        ]
-      },
-      {
-        "name": "Markup & Web Standards",
-        "level": "",
-        "keywords": [
-          "XHTML, HTML, HTML 5",
-          "ES6",
-          "JSX",
-          "CSS 3",
-          "JSON, JSONP",
-          "XML",
-          "RESTful interfaces",
-          "W3C Standards",
-          "WMS & WFS, OGC"
-        ]
-      },
-      {
-        "name": "Tools, Libraries and Frameworks",
-        "level": "",
-        "keywords": [
-          "React.js",
-          "jQuery",
-          "Backbone.js",
-          "Underscore / lodash",
-          "Redux (basics)",
-          "React Native (basics)",
-          "CakePHP",
-          "Laravel (basics)",
-          "Symfony (basics)",
-          "Express (basics)",
-          "Drupal",
-          "Headless Drupal",
-          "Adobe Experience Manager (basics)",
-          "Docker, Docker compose",
-          "Vagrant",
-          "git",
-          "SVN",
-          "BEM",
-          "OOCSS",
-          "SASS",
-          "SCSS",
-          "LESS",
-          "PostCSS",
-          "Autoprefixer",
-          "Foundation 5/6",
-          "Bootstrap 3",
-          "Webpack",
-          "Gulp",
-          "Grunt",
-          "Yeoman",
-          "Box Model",
-          "Flexbox",
-          "CSS Grids (basics)",
-          "NPM",
-          "Yarn",
-          "Composer",
-          "Bower",
-          "Jasmine",
-          "Mocha",
-          "Behat",
-          "Node.js",
-          "Electron (basics)",
-          "Django (basics)"
-        ]
-      },
-      {
-        "name": "Platforms and technologies",
-        "level": "",
-        "keywords": [
-          "Apache Web Server",
-          "LAMP",
-          "Nginx (basis)",
-          "Amazon Web Services",
-          "Gitlab, Github",
-          "IIS"
-        ]
-      },
-      {
-        "name": "Databases",
-        "level": "",
-        "keywords": [
-          "MySQL",
-          "PostgreSQL",
-          "MongoDB (basics)",
-          "Microsoft SQL Server",
-          "SQLite",
-          "dBASE"
-        ]
-      },
-      {
-        "name": "Operating Systems",
-        "level": "",
-        "keywords": [
-          "macOS / OS X",
-          "Windows",
-          "Linux",
-          "Android",
-          "iOS"
-        ]
-      },
-      {
-        "name": "Other skills and disciplines",
-        "level": "",
-        "keywords": [
-          "User Experience (UX)",
-          "User Interfaces Design (UI)",
-          "Interaction Design (IxD)",
-          "Graphic Design",
-          "Accessibility, WCAG"
-        ]
-      },
-      {
-        "name": "Geographical Information Systems",
-        "level": "",
-        "keywords": [
-          "ESRI ArcGIS Server",
-          "ArcGIS Javascript API",
-          "ESRI ArcGIS Desktop",
-          "OpenGEO",
-          "GeoServer",
-          "PostGIS",
-          "OpenLayers API"
-        ]
-      }
-    ],
-    "languages": [
-      {
-        "language": "Spanish",
-        "fluency": "Native speaker"
-      },
-      {
-        "language": "English",
-        "fluency": "Advanced reading and writing, Upper intermediate speaker"
-      }
-    ],
-    "interests": [],
-    "references": []
-  }
+    {
+      "company": "Globant",
+      "position": "Front-end Developer",
+      "website": "https://www.globant.com",
+      "startDate": "2014-12-22",
+      "endDate": "2016-10-31",
+      "summary": "",
+      "highlights": [
+        "Johnson's Baby - AR, CO, MX, Central America, Developer",
+        "Via Varejo \"Conecta\" Intranet",
+        "Anheuser-Busch InBev, several brand websites (Stella Artois, Corona, Rolling Rock, Bud Light)"
+      ]
+    },
+    {
+      "company": "Actionauta",
+      "position": "Project Manager, back-end and front-end developer",
+      "website": "",
+      "startDate": "2011-10-01",
+      "endDate": "2015-03-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Consejo Federal de Inversiones",
+      "position": "Consulting on application development and GIS integration",
+      "website": "",
+      "startDate": "2011-07-01",
+      "endDate": "2014-11-30",
+      "summary": "",
+      "highlights": [
+        "Technological Innovation Project for Catastro Provincial de Tierra del Fuego"
+      ]
+    },
+    {
+      "company": "Envero",
+      "position": "Founder. Project Manager, designer, back-end and front-end development",
+      "website": "http://envero.org",
+      "startDate": "2007-12-01",
+      "endDate": "2011-10-31",
+      "summary": "Mendoza, Argentina",
+      "highlights": []
+    },
+    {
+      "company": "Ilimit Comunicacions",
+      "position": "Front-end and back-end developer for websites and applications",
+      "website": "https://www.ilimit.com/es",
+      "startDate": "2006-12-01",
+      "endDate": "2007-12-31",
+      "summary": "Terrassa, Spain",
+      "highlights": []
+    },
+    {
+      "company": "Fulano & Mengano",
+      "position": "Front-end and back-end developer for websites and applications",
+      "website": "",
+      "startDate": "2005-12-01",
+      "endDate": "2006-12-31",
+      "summary": "Mendoza, Argentina",
+      "highlights": []
+    },
+    {
+      "company": "División GIS",
+      "position": "Web developer",
+      "website": "http://www.divisiongis.com",
+      "startDate": "2001-02-01",
+      "endDate": "2005-10-31",
+      "summary": "Web application developer for Internet and intranet. Relational databases implementations (MySQL, SQL Server). Mendoza, Argentina",
+      "highlights": []
+    },
+    {
+      "company": "Compañía Cuyana de Cómputos",
+      "position": "Geographical Information Systems operator",
+      "website": "",
+      "startDate": "1998-01-01",
+      "endDate": "2001-01-31",
+      "summary": "Mendoza, Argentina",
+      "highlights": []
+    },
+    {
+      "company": "Master Computación",
+      "position": "Technical service and Sales.",
+      "website": "",
+      "startDate": "1995-02-01",
+      "endDate": "1997-11-01",
+      "summary": "Mendoza, Argentina",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "IXDA Mendoza",
+      "position": "Contributor, technical support",
+      "website": "https://es-la.facebook.com/ixdamza/",
+      "startDate": "2014",
+      "endDate": "2016",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Tecnológica Nacional, Facultad Regional Mendoza",
+      "area": "Information Systems Engineering  (uncomplete)",
+      "studyType": "Undergraduate degree",
+      "startDate": "2001-01-01",
+      "endDate": "2002-12-31",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Universidad Nacional de Cuyo, Facultad de Artes y Diseño.",
+      "area": "Industrial Design, Graphic Design orientation (uncomplete)",
+      "studyType": "Undergraduate degree",
+      "startDate": "2002-01-01",
+      "endDate": "2006-12-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Colegio Abelardo Vázquez. San José, Guaymallén, Mendoza.",
+      "area": "Qualified Accountant",
+      "studyType": "High School",
+      "startDate": "1991-01-01",
+      "endDate": "1996-12-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Team Player",
+      "date": "2016-12-01",
+      "awarder": "Globant",
+      "summary": ""
+    },
+    {
+      "title": "Most Starred Production",
+      "date": "2017-12-01",
+      "awarder": "Globant",
+      "summary": ""
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Development languages",
+      "level": "",
+      "keywords": [
+        "Javascipt",
+        "PHP",
+        "Python (junior)",
+        "SQL (intermediate)",
+        "Visual Basic",
+        "Acionscript"
+      ]
+    },
+    {
+      "name": "Markup & Web Standards",
+      "level": "",
+      "keywords": [
+        "XHTML, HTML, HTML 5",
+        "ES6",
+        "JSX",
+        "CSS 3",
+        "JSON, JSONP",
+        "XML",
+        "RESTful interfaces",
+        "W3C Standards",
+        "WMS & WFS, OGC"
+      ]
+    },
+    {
+      "name": "Tools, Libraries and Frameworks",
+      "level": "",
+      "keywords": [
+        "React.js",
+        "Redux",
+        "Next.js",
+        "Underscore / lodash",
+        "jQuery",
+        "Backbone.js",
+        "React Native (basics)",
+        "CakePHP",
+        "Laravel (basics)",
+        "Symfony (basics)",
+        "Express",
+        "Drupal",
+        "Headless Drupal",
+        "Adobe Experience Manager (basics)",
+        "Docker, Docker compose",
+        "Vagrant",
+        "git",
+        "SVN",
+        "BEM",
+        "OOCSS",
+        "SASS",
+        "SCSS",
+        "LESS",
+        "PostCSS",
+        "Autoprefixer",
+        "Foundation 5/6",
+        "Bootstrap 3",
+        "Webpack",
+        "Gulp",
+        "Grunt",
+        "Yeoman",
+        "Box Model",
+        "Flexbox",
+        "CSS Grid",
+        "NPM",
+        "Yarn",
+        "Composer",
+        "Bower",
+        "Jasmine",
+        "Mocha",
+        "Behat",
+        "Node.js",
+        "Electron (basics)",
+        "Django (basics)"
+      ]
+    },
+    {
+      "name": "Platforms and technologies",
+      "level": "",
+      "keywords": [
+        "Apache Web Server",
+        "LAMP",
+        "Nginx (basis)",
+        "Amazon Web Services",
+        "Gitlab, Github",
+        "IIS"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB (basics)",
+        "Microsoft SQL Server",
+        "SQLite",
+        "dBASE"
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "level": "",
+      "keywords": [
+        "macOS / OS X",
+        "Windows",
+        "Linux",
+        "Android",
+        "iOS"
+      ]
+    },
+    {
+      "name": "Other skills and disciplines",
+      "level": "",
+      "keywords": [
+        "User Experience (UX)",
+        "User Interfaces Design (UI)",
+        "Interaction Design (IxD)",
+        "Graphic Design",
+        "Accessibility, WCAG"
+      ]
+    },
+    {
+      "name": "Geographical Information Systems",
+      "level": "",
+      "keywords": [
+        "ESRI ArcGIS Server",
+        "ArcGIS Javascript API",
+        "ESRI ArcGIS Desktop",
+        "OpenGEO",
+        "GeoServer",
+        "PostGIS",
+        "OpenLayers API"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced reading and writing, Upper intermediate speaker"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
