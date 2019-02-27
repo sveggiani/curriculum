@@ -6,7 +6,7 @@
     "email": "sveggiani@gmail.com",
     "phone": "(+54) 9 261 5 698812",
     "website": "http://actionauta.com",
-    "summary": "I'm software developer with solid knowledge and experience in Web Design and User Interfaces Design. Besides, I am a User Experience (UX) enthusiastic and curious too.  At present, I'm located at Mendoza, Argentina.",
+    "summary": "I'm software developer with solid knowledge and experience in Web Design and User Interfaces Design. Besides, I am a User Experience (UX) enthusiastic and curious too. Currently residing at Ciudad de Mendoza, Argentina.",
     "location": {
       "address": "Coronel P. Plaza 431, Depto. 6",
       "postalCode": "5500",
@@ -35,19 +35,20 @@
   "work": [
     {
       "company": "Globant",
-      "position": "Technical Leader",
+      "position": "Software Designer (Front-end Developer)",
       "website": "https://www.globant.com",
       "startDate": "2016-11-01",
       "endDate": "",
       "summary": "",
       "highlights": [
+        "Hallmark Movies Now - SVOD platform, Technical Leader",
         "Young Olympic Games, Buenos Aires 2018, Technical Leader",
         "OpenBank, Technical Leader"
       ]
     },
     {
       "company": "Globant",
-      "position": "Front-end Developer",
+      "position": "Semi-senior Advanced, Sernior (Front-end Developer)",
       "website": "https://www.globant.com",
       "startDate": "2014-12-22",
       "endDate": "2016-10-31",
@@ -68,9 +69,9 @@
       "highlights": []
     },
     {
-      "company": "Consejo Federal de Inversiones",
+      "company": "División GIS",
       "position": "Consulting on application development and GIS integration",
-      "website": "",
+      "website": "http://divisiongis.com",
       "startDate": "2011-07-01",
       "endDate": "2014-11-30",
       "summary": "",
@@ -209,6 +210,7 @@
         "ES6",
         "JSX",
         "CSS 3",
+        "CSS Modules",
         "JSON, JSONP",
         "XML",
         "RESTful interfaces",
@@ -259,6 +261,7 @@
         "Composer",
         "Bower",
         "Jasmine",
+        "Jest, Enzyme",
         "Mocha",
         "Behat",
         "Node.js",
@@ -272,7 +275,8 @@
       "keywords": [
         "Apache Web Server",
         "LAMP",
-        "Nginx (basis)",
+        "Express",
+        "Nginx (basic)",
         "Amazon Web Services",
         "Gitlab, Github",
         "IIS"
