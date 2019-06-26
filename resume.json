@@ -6,7 +6,7 @@
     "email": "sveggiani@gmail.com",
     "phone": "(+54) 9 261 5 698812",
     "website": "http://actionauta.com",
-    "summary": "I'm software developer with solid knowledge and experience in Web Design and User Interfaces Design. Besides, I am a User Experience (UX) enthusiastic and curious too. Currently residing at Ciudad de Mendoza, Argentina.",
+    "summary": "I'm software developer with solid knowledge and experience in Web Design and User Interfaces Design. Besides, I am a User Experience (UX) enthusiastic and curious too. I am currently located in Ciudad de Mendoza, Argentina.",
     "location": {
       "address": "Coronel P. Plaza 431, Depto. 6",
       "postalCode": "5500",
@@ -34,11 +34,19 @@
   },
   "work": [
     {
+      "company": "weKnow",
+      "position": "Senior Software Developer (Front-end Developer)",
+      "website": "https://weknowinc.com",
+      "startDate": "2019-04-01",
+      "endDate": "",
+      "summary": ""
+    },
+    {
       "company": "Globant",
       "position": "Software Designer (Front-end Developer)",
       "website": "https://www.globant.com",
       "startDate": "2016-11-01",
-      "endDate": "",
+      "endDate": "2019-03-31",
       "summary": "",
       "highlights": [
         "Hallmark Movies Now - SVOD platform, Technical Leader",
@@ -48,7 +56,7 @@
     },
     {
       "company": "Globant",
-      "position": "Semi-senior Advanced, Sernior (Front-end Developer)",
+      "position": "Semi-senior Advanced, Senior (Front-end Developer)",
       "website": "https://www.globant.com",
       "startDate": "2014-12-22",
       "endDate": "2016-10-31",
@@ -209,7 +217,7 @@
         "XHTML, HTML, HTML 5",
         "ES6",
         "JSX",
-        "CSS 3",
+        "CSS 3 (Box model, Flexbox, CSS Grid)",
         "CSS Modules",
         "JSON, JSONP",
         "XML",
@@ -233,8 +241,8 @@
         "Laravel (basics)",
         "Symfony (basics)",
         "Express",
-        "Drupal",
-        "Headless Drupal",
+        "Drupal / Headless Drupal",
+        "Gatsby",
         "Adobe Experience Manager (basics)",
         "Docker, Docker compose",
         "Vagrant",
@@ -253,9 +261,6 @@
         "Gulp",
         "Grunt",
         "Yeoman",
-        "Box Model",
-        "Flexbox",
-        "CSS Grid",
         "NPM",
         "Yarn",
         "Composer",
